@@ -1,8 +1,5 @@
 ---
-title: Welcome to Quartz
+title: Welcome to mart's blog
 ---
-This is a test – does the publishing via github pages work?
 
-
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+In this test blog, I see whether I can use an obsidian vault as the basis for blogging.
