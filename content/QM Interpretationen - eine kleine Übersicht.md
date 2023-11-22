@@ -1,4 +1,4 @@
-Die pdf des Dokuments ist unter [[QM_Interp.pdf]] hinterlegt.
+Die pdf des Dokuments ist unter [[QM_Interp.pdf]] hinterlegt. Der Text richtet sich an Studierende, die Quantenmechanik-Vorlesungen hören uns ein Interesse an den Interpretationen der Quantenmechanik haben.
 
 #### Unfertige Aspekte
 - Nicht alle Interpretationen haben aktuell eigenständige Zeichnungen.
@@ -42,17 +42,19 @@ tel, sowie eine noch muntere Katze.
 
 Das radioaktive Material wird mit einer Wahrscheinlichkeit von 50 % in der nächsten Stunde
 zerfallen. Dabei misst das Zählrohr den Zerfall und setzt das Schlafmittel frei, welches die
-Katze einschlafen lässt^[In Schrödingers Gedankenexperiment wurde tödliche Blausäure verwendet. Im Sinne der Ethikkommission
-wird für das Gedankenexperiment hier Schlafmittel benutzt.].
+Katze einschlafen lässt [^1].
 Es passiert (idealisiert) folgendes: Zu Beginn haben nur atomar kleine Teilchen in der
 Beschreibung der Quantenmechanik unbestimmte Orte. Mit der Zeit aber sammelt sich
 in der Zustandsbeschreibung ein Anteil an, in welchem das Atom zerfallen ist. In diesem
 Anteil schlägt das Zählrohr aus, lässt das Schlafgas frei und die Katze schläft. In dem
 Anteil ohne zerfallenes Atom läuft die Katze munter (und ungeduldig werdend) in ihrer
 Box umher.
-Tatsächlich wird aber keine Experimentatorin^[Der Traum, der Alices Karriere zur führenden Experimentatorin für Gedankenexperimente auslöste, zeigt klar, wie außergewöhnlich das Erleben solcher Überlagerungen wäre. [Alice’s Adventures in Wonderland; Lewis Carroll; 1865]]] beim Öffnen der Kiste ’einen Anteil mit
+Tatsächlich wird aber keine Experimentatorin[^2] beim Öffnen der Kiste ’einen Anteil mit
 tief schlafender und einen Anteil mit wacher’ Katze vorfinden. Stattdessen wird in der
 Hälfte der Fälle die Katze eindeutig schlafen und in der anderen eindeutig wütend sein.
+
+[^1]: In Schrödingers Gedankenexperiment wurde tödliche Blausäure verwendet. Im Sinne der Ethikkommission wird für das Gedankenexperiment hier Schlafmittel benutzt.
+[^2]: Der Traum, der Alices Karriere zur führenden Experimentatorin für Gedankenexperimente auslöste, zeigt klar, wie außergewöhnlich das Erleben solcher Überlagerungen wäre. [Alice’s Adventures in Wonderland; Lewis Carroll; 1865]
 
 Würden die Schrödinger-Gleichung und ihre Lösung, die Wellenfunktion (Ψ), unsere
 Welt tatsächlich in letzter Konsequenz richtig und vollständig beschreiben, so hätten
@@ -77,7 +79,7 @@ veranschaulichen.
 ## 2 Der gemeinsame Nenner: Die Minimalinterpretation
 
 Die Minimal-Interpretation ist sozusagen der gemeinsame Ausgangspunkt der Quantenmechanik. Von ihr aus kann man auf weiter gehende Interpretationen hinarbeiten. 
-Zustände sind Vektoren $|\psi_t\rangle$ im Hilbert-Raum $\mathcal{H}$. Man erhält den neuen Raum der möglichen Zustände $\mathcal{H}$, indem man jeden^[Hierzu kommen innere Freiheitsgrade wie der Spin. Auch verlieren Geschwindigkeit und Ort ihren Status als voneinander unabhängige Größen - der gesamte Zustand lässt sich gleichwertig als Verteilung über die Orte oder über ihre Impulse festlegen $\psi(\{\vec{r}\})\leftrightarrow \tilde{\psi}(\{\vec{p}\})$. Da die Verbindung eine Fourier-Transformation ist, ergibt sich die Heisenbergsche Unschärferelation dafür, wie scharf die zueinander gehörenden Wellenfunktionen $\psi$ und $\tilde{\psi}$ um einen festen Ort und Impuls fokussiert sein können: $\Delta x\Delta p \ge \hbar/2$.] klassischen Zustand zu einem Basisvektor "befördert", z.B. ist die Wellenfunktion von $N$ Teilchen als Vektor im Hilbert-Raum als eine komplexe Verteilung über alle Teilchenkonfigurationen 
+Zustände sind Vektoren $|\psi_t\rangle$ im Hilbert-Raum $\mathcal{H}$. Man erhält den neuen Raum der möglichen Zustände $\mathcal{H}$, indem man jeden[^3] klassischen Zustand zu einem Basisvektor "befördert", z.B. ist die Wellenfunktion von $N$ Teilchen als Vektor im Hilbert-Raum als eine komplexe Verteilung über alle Teilchenkonfigurationen 
 
 $$
 \psi:\qquad \mathbb{R}^{3N}\rightarrow \mathbb{C}, \quad
@@ -90,11 +92,13 @@ in 2D, wobei die komplexe Phase als
 Farbe und die Amplitude als Intensität
 dargestellt ist.
 
+[^3]: Hierzu kommen innere Freiheitsgrade wie der Spin. Auch verlieren Geschwindigkeit und Ort ihren Status als voneinander unabhängige Größen - der gesamte Zustand lässt sich gleichwertig als Verteilung über die Orte oder über ihre Impulse festlegen $\psi(\{\vec{r}\})\leftrightarrow \tilde{\psi}(\{\vec{p}\})$. Da die Verbindung eine Fourier-Transformation ist, ergibt sich die Heisenbergsche Unschärferelation dafür, wie scharf die zueinander gehörenden Wellenfunktionen $\psi$ und $\tilde{\psi}$ um einen festen Ort und Impuls fokussiert sein können: $\Delta x\Delta p \ge \hbar/2$.
 
 wobei die Vektoren $| \{\vec{r}\} \rangle$ eine kontinuierliche Basis bilden. Die Zeitentwicklung von Zuständen ist durch die Schrödinger-Gleichung gegeben. Da Messungen nur durch Wechselwirkung möglich sind, ist es naheliegend, dass bei der Beschreibung elementarer Teilchen Messungen einen signifikanten Einfluss auf den Zustand haben welcher explizit beschrieben werden muss. Messungen sind mit Operatoren $\hat{O}$ darstellbar, und um Experimente vorherzusagen bildet man Erwartungswerte $\langle \hat{O} \rangle_t = \langle \psi_t | \hat{O} |\psi_t\rangle$. Nach einer Messung ersetzt man die alte Zustandsbeschreibung, durch eine, die dem gemessenen Zustand entspricht. Der gemeinsame Anteil (genauer das Betragsquadrat des Skalarprodukts) der ursprünglichen Zustandsbeschreibung ($|\psi_t\rangle$) mit dem 'gemessenen' Zustand ($|\Phi\rangle$), gibt die Wahrscheinlichkeit dieses experimentellen Ergebnisses an $p(\Phi|\psi_t)=|\langle\Phi |\psi_t\rangle|^2$ (Born'sche Regel).
 
-Mit dieser Interpretation lassen sich erfolgreich Experimentelle Ergebnisse vorhersagen, sie macht aber erst einmal keine Aussage darüber, was ein Zustand im Hilbert-Raum nun genau mit der Realität zu tun hat. Auch ist es erklärungsbedürftig, dass die Schrödinger-Gleichung, welche doch wie im klassischen die Newton'sche Bewegungsgleichung alle Zeitentwicklung beschreiben sollte, durch Messungen ausgehebelt wird^[Tatsächlich kann man bis auf den 'Kollapsprozess' (s. Diskussion in den folgenden Seiten) und die Born'sche Regel die anderen Regeln für Messungen aus der Schrödinger-Gleichung herleiten. Schrödingers-Katze ist also gut geeignet, um mögliche Probleme herauszuarbeiten.].
+Mit dieser Interpretation lassen sich erfolgreich Experimentelle Ergebnisse vorhersagen, sie macht aber erst einmal keine Aussage darüber, was ein Zustand im Hilbert-Raum nun genau mit der Realität zu tun hat. Auch ist es erklärungsbedürftig, dass die Schrödinger-Gleichung, welche doch wie im klassischen die Newton'sche Bewegungsgleichung alle Zeitentwicklung beschreiben sollte, durch Messungen ausgehebelt wird[^t].
 
+[^t]: Tatsächlich kann man bis auf den 'Kollapsprozess' (s. Diskussion in den folgenden Seiten) und die Born'sche Regel die anderen Regeln für Messungen aus der Schrödinger-Gleichung herleiten. Schrödingers-Katze ist also gut geeignet, um mögliche Probleme herauszuarbeiten.
 ## 3 Schrödingers Katze im Licht der verschiedenen Interpretationen
 
 #### Kurzgefasst
